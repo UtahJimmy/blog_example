@@ -6,6 +6,6 @@ title: Electronotes List
 	<ul class="posts">
 
 	  {% for post in site.posts reversed %}
-	    <li> <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a><span> - ({{ post.date | date_to_string }})</span>  </li>
+	    <li> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a><span> - ({{ post.date | date_to_string }})</span>  </li>
 	  {% endfor %}
 	</ul>
